@@ -9,5 +9,17 @@ img.center { margin-left: auto; margin-right: auto; }
     padding-top: 60px;
     margin-top: -60px;
 }
+.kursheader {
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center center;
+	padding-top: 180px;
+}
+.kursheader h3.panel-title { font-size: 24px; font-weight: 800; }
+.kursheader-df { background-image: url("img/jeger.png"); background-position: center 30%; color: #ffffff !important; }
+.kursheader-sp { background-image: url("img/Spraak_innmlustrasjon.png"); background-position: center 80%; color: #333333 !important; }
+.kursheader-dk { background-image: url("img/datarom_jente.png"); background-position: center 40%; color: #ffffff !important; }
+.kursheader-hh { background-image: url("img/treskjaering2.png"); color: #111111 !important; }
+.kursheader-mt { background-image: url("img/gospel.png"); color: #ffffff !important; }
 footer { margin-top: 40px; padding: 40px 0; background-color: #d9d9d9; border-top: 1px solid #c8c8c8; }
 #map { height: 400px; }
