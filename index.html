@@ -174,6 +174,14 @@
 			</div>
 		</div></div>
 	</div>
+  <hr>
+  <h2 id="quiz" class="section">Lær om kurs og voksenopplæring her og test deg selv</h2>
+	<p>Velkommen til vår lille quiz om voksenopplæring. Her kan du lese fem små faktabokser om voksenopplæring og studieforbund. Etter hver side kommer det et spørsmål. La oss se om du er en ekspert på voksenopplæring!</p>
+  <div class="jumbotron">
+    <div id="quizapp">
+      <section id="quizapp-main"></section>
+    </div>
+  </div>
 </div>
 <footer>
 	<div class="container">
@@ -186,7 +194,12 @@
     </div>
 	</div>
 </footer>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script><script src="bootstrap.min.js"></script><script src="site.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.16/backbone.localStorage-min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="site.js"></script>
     <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
     <script>
       function map_init() {
@@ -208,5 +221,39 @@
 	  ga('send', 'pageview');
 
 	</script>
+
+  <script type="text/template" id="item-template">
+    <h3>Oppgave <%- number %></h3>
+    <div class="fact">
+      <p><%- fact %></p>
+      <p>
+        <% _.each(links, function(text, href){%>
+          <a href="<%- href %>" target="_blank"><%- text %></a>
+        <%})%>
+      </p>
+      <p><a class="question btn btn-primary">Gå til spørsmål</a></p>
+    </div>
+    <div class="quiz">
+      <p><%- question %></p>
+      <% _.each(options, function(option) { %>
+        <div class="radio"><label><input type="radio" name="answr" value="<%- option %>"> <%- option %></label></div>
+      <% }) %>
+      <p><a class="answer btn btn-success">Svar</a> &nbsp; <span class="text-danger"></span></p>
+    </div>
+  </script>
+
+  <script type="text/template" id="success-template">
+    <% if(correct > 3) { %>
+      <h3>Gratulerer, du fikk <%= correct %> riktige svar!</h3>
+      <p>Du er en liten ekspert på voksenopplæring.</p>
+    <% } else { %>
+      <h3>Du fikk <%= correct %> riktig<%= correct == 1 ? '' : 'e' %> svar.</h3>
+    <% } %>
+    <p>Velkommen innom vår stand på Arendalsuka for et mikrokurs, en spennende samtale om voksenopplæring eller for å lære noe nytt.</p>
+    <p>
+      <a class="retry btn btn-primary">Start quizen på nytt</a>
+    </p>
+  </script>
+
 </body>
 </html>

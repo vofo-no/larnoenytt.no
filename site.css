@@ -23,3 +23,23 @@ img.center { margin-left: auto; margin-right: auto; }
 .kursheader-mt { background-image: url("img/gospel.png"); color: #ffffff !important; }
 footer { margin-top: 40px; padding: 40px 0; background-color: #d9d9d9; border-top: 1px solid #c8c8c8; }
 #map { height: 400px; }
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+.jumbotron {
+  min-height: 275px;
+  padding: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 6px;
+  border: 1px solid #b30022;
+  box-shadow: 0 0 10px #eee;
+}
+.jumbotron h3 { margin-top: 0; }

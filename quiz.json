@@ -1,0 +1,49 @@
+[
+  {
+    "number" : 1,
+    "fact" : "I Norge er det 15 studieforbund som gjennom sine medlemsorganisasjoner tilbyr kurs og opplæring i hele landet. Gjennom frivillige og ideelle organisasjoner gikk 509 724 deltakere på kurs i 2014.",
+    "links" : {
+      "http://vofo.no/om-vofo/studieforbund/" : "Se alle studieforbundene her (vofo.no)"
+    },
+    "question" : "Hvor mange studieforbund har vi i Norge?",
+    "options" : [ "13", "14", "15" ],
+    "correct" : "15"
+  },{
+    "number" : 2,
+    "fact" : "I 2014 var det stor vekst i antall grønne kurs som f.eks. hundedressurkurs og jegerprøvekurs. I Arendal tilbyr Arendal Jeger og Fiskerforbund jegerprøvekurs og Aust-Agder Elghundklubb har ettersøkshund-kurs til høsten.",
+    "links" : {
+      "http://www.naturogmiljo.no/planlagte_kurs/hundekurs" : "Planlagte hundekurs (naturogmiljo.no)",
+      "http://www.naturogmiljo.no/planlagte_kurs/jegerproven" : "Planlagte jegerprøvekurs (naturogmiljo.no)"
+    },
+    "question" : "Hvem arrangerer jegerprøvekurs i Arendal?",
+    "options" : [ "Aust-Agder Elghundklubb", "Jakt og fiske", "Arendal Jeger og Fiskerforbund" ],
+    "correct" : "Arendal Jeger og Fiskerforbund"
+  },{
+    "number" : 3,
+    "fact" : "Voksenopplæringsforbundet har stand på Sam Eydes plass under Arendalsuka 2015. I teltet kan du lære noe nytt på mange forskjellig måter, på \"Lad og lær\" kan du lade mobiltelefonen din mens du lærer deg noe nytt. På \"Akustikk i kulturlokalet\" kan du sjekke om ditt nærmeste kulturlokale holder en godkjent standard for akustikk.",
+    "links" : {
+      "http://lærnoenytt.no/#kart" : "Her finner du oss under Arendalsuka 2015 (lærnoenytt.no)"
+    },
+    "question" : "Hvor finner du VOFO sin stand under Arendalsuka?",
+    "options" : [ "På Sam Eydes plass", "På torget", "I gågata" ],
+    "correct" : "På Sam Eydes plass"
+  },{
+    "number" : 4,
+    "fact" : "Studieforbundene administrerer et tilskudd fra Kunnskapsdepartementet som skal gjøre kurs og opplæring tilgjengelig for flere. På lærnoenytt.no finner du en oversikt over mikrokurs på VOFO sin stand på Arendalsuka og kurs som holdes i hele Norge. Her kan du finne et kurs i nærheten av deg.",
+    "links" : {
+      "https://lovdata.no/dokument/NL/lov/2009-06-19-95" : "Studieforbundene er underlagt Lov om voksenopplæring (lovdata.no)"
+    },
+    "question" : "Hvorfor får studieforbundene tilskudd fra Kunnskapsdepartementet?",
+    "options" : [ "For å gjøre lærerne bedre", "For at kursene skal være tilgjengelige for flest mulig", "For at all opplæring skal være gratis" ],
+    "correct" : "For at kursene skal være tilgjengelige for flest mulig"
+  },{
+    "number" : 5,
+    "fact" : "For at et kurs skal motta kursstøtte fra studieforbundene må deltakerne være over 14 år. I studieforbundene kan du gå på mange forskjellige kurs. Kanskje har du alt gått på et kurs som mottok støtte fra et studieforbund? Du er hjertelig velkommen til å delta på mikrokurs på VOFO sin stand. Se hele kursprogrammet på lærnoenytt.no.",
+    "links" : {
+      "http://lærnoenytt.no/#program" : "Her er hele kursprogrammet for vår stand på Arendalsuka. Kom innom og lær noe nytt (lærnoenytt.no)"
+    },
+    "question" : "Hvor gamle må deltakerne være for at et kurs kan motta støtte og hva heter nettsiden til VOFO på Arendalsuka. Og hva heter nettsiden til VOFO på Arendalsuka hvor du finner oversikten over mikrokursene?",
+    "options" : [ "15 år og lærnoenytt.no", "14 år og læroglev.no", "14 år og lærnoenytt.no" ],
+    "correct" : "14 år og lærnoenytt.no"
+  }
+]
