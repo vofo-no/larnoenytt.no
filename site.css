@@ -43,3 +43,9 @@ footer { margin-top: 40px; padding: 40px 0; background-color: #d9d9d9; border-to
   box-shadow: 0 0 10px #eee;
 }
 .jumbotron h3 { margin-top: 0; }
+.btn-lg .fa-2x {
+  margin-top: -3px;
+  margin-right: 5px;
+  line-height: 14px;
+  vertical-align: middle;
+}
